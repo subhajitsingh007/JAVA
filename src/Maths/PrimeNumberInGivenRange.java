@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrimeNumberInGivenRange {
     static boolean isPrime(int num){
         //edge case
-        if(num==1 || num==2)
+        if(num==1 || num==0)
             return false;
 
         for(int i=2; i<num;i++){
